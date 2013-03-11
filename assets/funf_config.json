@@ -1,26 +1,23 @@
-{       "name": "WifiScanner",
+{       "name": "Stressstudy",
         "version":1,
-        "dataUploadUrl":"http://ec2-54-235-67-184.compute-1.amazonaws.com/",
-        "dataUploadPeriod":3600,
+        "dataUploadUrl":"http:\/\/ec2-54-235-67-184.compute-1.amazonaws.com:8000\/data",
+        "dataUploadPeriod":21600,
         "dataArchivePeriod":3600,
         "dataRequests":{
 	        "edu.mit.media.funf.probe.builtin.LocationProbe": [
-	            { "PERIOD": 900, "DURATION": 30 }
+	            {"DURATION": 30 }
 	        ],
 	        "edu.mit.media.funf.probe.builtin.WifiProbe": [
-	            { "PERIOD": 900 }
+	            {"DURATION": 30 }
 	        ],
 		"edu.mit.media.funf.probe.builtin.BluetoothProbe":[
-		    { "PERIOD": 900 }
+		    {"DURATION": 30 }
 		],
 		"edu.mit.media.funf.probe.builtin.AccelerometerSensorProbe":[
-		    { "DURATION": 30, "PERIOD": 900 }
+		    { "DURATION": 600, "PERIOD": 900 }
 		],
 		"edu.mit.media.funf.probe.builtin.LightSensorProbe":[
-		    { "DURATION": 30, "PERIOD": 900 }
-		], 
-		"edu.mit.media.funf.probe.builtin.TimeOffsetProbe":[
-		    { "PERIOD": 900 }
-		] 
+		    { "DURATION": 600, "PERIOD": 900 }
+		]
         }
 }
