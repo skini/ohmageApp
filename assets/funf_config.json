@@ -5,19 +5,19 @@
         "dataArchivePeriod":3600,
         "dataRequests":{
 	        "edu.mit.media.funf.probe.builtin.LocationProbe": [
-	            {"DURATION": 30 }
+		    { "DURATION": 30, "PERIOD": 1800 }
 	        ],
 	        "edu.mit.media.funf.probe.builtin.WifiProbe": [
-	            {"DURATION": 30 }
+		    { "DURATION": 30, "PERIOD": 1800 }
 	        ],
 		"edu.mit.media.funf.probe.builtin.BluetoothProbe":[
-		    {"DURATION": 30 }
+		    { "DURATION": 30, "PERIOD": 1800 }
 		],
 		"edu.mit.media.funf.probe.builtin.AccelerometerSensorProbe":[
-		    { "DURATION": 600, "PERIOD": 900 }
+		    { "DURATION": 30, "PERIOD": 1800 }
 		],
 		"edu.mit.media.funf.probe.builtin.LightSensorProbe":[
-		    { "DURATION": 600, "PERIOD": 900 }
+		    { "DURATION": 30, "PERIOD": 1800 }
 		]
         }
 }
